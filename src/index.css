@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  font-family: 'Poppins';
+  padding: 0;
+  margin: 0;
+  @apply bg-[#c8d9e6];
+}
+section{
+  flex-wrap: wrap;
+}
+#logo img{
+  height: 30px;
+}
+ul li{
+  font-family: 'Albert Sans', sans-serif;
+  @apply text-white cursor-pointer px-2.5 py-2 hover:bg-[#2f4156] max-sm:py-2 max-sm:text-[14px];
+}
+ul li:hover{
+  transition-duration: 1s;
+}
+#headline{
+  font-family: 'Allura', handwriting;
+}
+#steps div{
+  @apply w-80 m-2;
+  p{
+    @apply text-[16px] text-[#567c8d] max-sm:text-[14px];
+  }
+}
+#steps div img{
+  @apply m-3 mx-auto h-16 max-sm:h-12;
+}
+#whyus div{
+  @apply flex flex-row justify-evenly m-5 items-center ;
+}
+#whyus div img{
+  @apply m-2 w-[300px] max-sm:w-52;
+}
+#whyus div p{
+  @apply text-[#567c8d] w-96 max-sm:text-[14px];
+}
+#social a{
+  @apply w-fit;
+}
+#social a:hover{
+  color: #fff;
+  transition-duration: 0.5s;
+}
+#social a{
+  @apply mr-5;
+}
+#social div a{
+  font-weight: 500;
+  @apply text-[#bbb];
+}

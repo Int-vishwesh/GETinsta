@@ -9,9 +9,9 @@ const Navbar = () => {
       </div>
       <nav>
         <ul className="flex text-[19px]">
-          <li><a href="">Home</a></li>
-          <li><a href="">Contact</a></li>
-          <li className='pr-5'><a href="">About</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li className='pr-5'><a href="#about">About</a></li>
         </ul>
 
       </nav>

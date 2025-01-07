@@ -11,9 +11,9 @@ const Footer = () => {
             <a href="">privacy policy</a>
             <a href="">terms of service</a>
             <div  className="flex flex-row justify-start mt-2 ">
-              <a href="">email</a>
-              <a href="">linkedin</a>
-              <a href="">github</a>
+              <a href=""><i class="fa-solid fa-envelope"></i> email</a>
+              <a href=""><i class="fa-brands fa-linkedin"></i> linkedin</a>
+              <a href=""><i class="fa-brands fa-github"></i> github</a>
             </div>
           </div>
         </div>

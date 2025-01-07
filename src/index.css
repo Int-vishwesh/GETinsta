@@ -55,3 +55,14 @@ ul li:hover{
   font-weight: 500;
   @apply text-[#bbb];
 }
+
+/* downloaded video */
+#displayreel p{
+  @apply text-[#567c8d] text-[19px] max-sm:text-[12px];
+}
+#displayreel video{
+  border-radius: 10px;
+  width: 400px;
+  height: 700px;
+  @apply max-sm:w-52 max-sm:h-96;
+}

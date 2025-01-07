@@ -11,14 +11,16 @@ Currently, two official plugins are available:
 
 
 # GETinsta
->>>>>>> a436f94a688719fc7b5be3ccc6072a406600b139
->>>>>>> UI : react, tailwind, some CSS wherever applicable
->>>>>>> functionality & response : JavaScript (vanilla)
->>>>>>> API : Instaloader python library
->>>>>>> integrated using Flask framework
-
-
+>>>>>>> a436f94a688719fc7b5be3ccc6072a406600b139 <br>
+>>>>>>> UI : react, tailwind, some CSS wherever applicable <br>
+>>>>>>> functionality & response : JavaScript (vanilla) <br>
+>>>>>>> API : Instaloader python library <br>
+>>>>>>> integrated using Flask framework <br>
+<br>
+<br>
+<br>
 thats all, a simple single page web app, clean and easy to use, probably built for personal use : )
-
->>>>>>> soon will will also be available for any types of content : stories, posts & profile pic. Will take time as im just a noob learner
->>>>>>>  stay tune :|
+<br>
+<br>
+>>>>>>> soon will will also be available for any types of content : stories, posts & profile pic. Will take time as im just a noob learner <br>
+>>>>>>>  stay tune :| <br>

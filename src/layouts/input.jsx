@@ -34,7 +34,7 @@ const Input = () => {
   return (
     <div>
       <form action="" method="get" className="items-center w-100 text-center justify-center">
-        <p id='headline' className="text-6xl text-[#567c8d] m-10 font-medium max-sm:text-4xl">
+        <p id='headline' className="text-6xl text-[#567c8d] m-10 font-medium max-sm:text-5xl">
           Download reel at one click  <br /> no login, no limits </p>
         <p className='text-[17px] mb-10 text-[#2f4156] font-medium -mt-8 ' >Fast, Easy & Free <br /> <span>anytime ! anywhere !</span></p>
         <div className='flex flex-row justify-center'>
@@ -47,7 +47,7 @@ const Input = () => {
         <br />
         <button
           type="button" onClick={paste}
-          className="text-[18px] rounded-[100px] m-3 px-5 py-2 -mt-5 border-[2px] text-[#567c8d] border-[#567c8d] hover:bg-[#567c8d] hover:text-white max-sm:text-[15px] max-sm:px-3 max-sm:py-0.5 ">
+          className="text-[18px] rounded-[100px] m-3 px-5 py-2 -mt-5 border-[2px] text-[#567c8d] border-[#567c8d] hover:bg-[#567c8d] hover:text-white max-sm:text-[13px] max-sm:px-3 max-sm:py-0.5 ">
           Paste link <i class="fa-regular fa-copy"></i>
         </button>
         <button

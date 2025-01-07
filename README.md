@@ -9,13 +9,15 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 ========================
 
-
+<hr>
 # GETinsta
->>>>>>> a436f94a688719fc7b5be3ccc6072a406600b139 <br>
->>>>>>> UI : react, tailwind, some CSS wherever applicable <br>
->>>>>>> functionality & response : JavaScript (vanilla) <br>
->>>>>>> API : Instaloader python library <br>
->>>>>>> integrated using Flask framework <br>
+<br>
+a436f94a688719fc7b5be3ccc6072a406600b139 <br>
+<br>
+UI : react, tailwind, some CSS wherever applicable <br>
+functionality & response : JavaScript (vanilla) <br>
+API : Instaloader python library <br>
+integrated using Flask framework <br>
 <br>
 <br>
 <br>

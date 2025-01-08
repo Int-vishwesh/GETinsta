@@ -20,12 +20,12 @@ const Input = () => {
       const response = await axios.post('http://127.0.0.1:5000/download', { url: pasteurl });
       const reelUrl = response.data.reel_url;
 
-      // Show the reel in the div
+      // Show the reel
       const displayReelDiv = document.getElementById('displayreel');
       displayReelDiv.innerHTML = `<p> your reel is ready to download below </p> <br> <video src="${reelUrl}" controls ></video>`;
     } 
     catch (error) {
-      alert(error.response?.data?.error || 'An error occurred while fetching the reel.');
+      alert(error.response?.data?.error || 'An error occurred while fetching the reel. or maybe our server issue');
     }
   };
 

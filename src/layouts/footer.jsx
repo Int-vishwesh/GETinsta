@@ -11,8 +11,8 @@ const Footer = () => {
             <a href="">privacy policy</a>
             <a href="">terms of service</a>
             <div  className="flex flex-row justify-start mt-2 ">
-              <a href=""><i class="fa-solid fa-envelope"></i> email</a>
-              <a href="linkedin.com/in/vishwesh-aryan-608691236"><i class="fa-brands fa-linkedin"></i> linkedin</a>
+              <a href="mailto:jerryaryan123@gmail.com"><i class="fa-solid fa-envelope"></i> email</a>
+              <a href="https://www.linkedin.com/in/vishwesh-aryan-608691236"><i class="fa-brands fa-linkedin"></i> linkedin</a>
               <a href="https://github.com/Int-vishwesh"><i class="fa-brands fa-github"></i> github</a>
             </div>
           </div>

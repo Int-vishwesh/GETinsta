@@ -17,7 +17,7 @@ const Input = () => {
     }
 
     try {
-      const response = await axios.post('http://127.0.0.1:5000/download', { url: pasteurl });
+      const response = await axios.post('https://getinsta-backend.onrender.com/download', { url: pasteurl });
       const reelUrl = response.data.reel_url;
 
       // Show the reel

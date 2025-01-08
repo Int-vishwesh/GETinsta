@@ -4,12 +4,20 @@ import axios from 'axios';
 const Input = () => {
   const [pasteurl, setPasteUrl] = useState('');
 
+  //pasting last copied
   const paste = () => {
     navigator.clipboard.readText().then((text) => {
       setPasteUrl(text);
     });
   };
 
+  //during fetching
+  const waiting = () => {
+    const displayReelDiv = document.getElementById('displayreel');
+    displayReelDiv.innerHTML = "<p>Getting your reel...</p>";
+  };
+  
+  //download reel
   const download = async () => {
     if (!pasteurl) {
       alert('Please paste a valid Instagram reel URL.');
@@ -25,8 +33,14 @@ const Input = () => {
       displayReelDiv.innerHTML = `<p> your reel is ready to download <br> below </p> <br> <video src="${reelUrl}" controls ></video>`;
     } 
     catch (error) {
-      alert(error.response?.data?.error || 'An error occurred while fetching the reel. or maybe our server issue');
+      alert(error.response?.data?.error || 'An error occurred while fetching the reel. please check your URL or internet connection ');
     }
+  };
+
+  // on clicking download btn
+  const handleClick = () => {
+    waiting(); 
+    download();
   };
 
 
@@ -51,13 +65,13 @@ const Input = () => {
           Paste link <i class="fa-regular fa-copy"></i>
         </button>
         <button
-          type="button" onClick={download}
+          type="button" onClick={handleClick}
           className="text-[18px] font-medium rounded-[100px] m-1 px-5 py-2 -mt-5 border-[2px] text-[#fff] bg-[#567c8d] border-[#567c8d] hover:bg-[#2f4156] max-sm:text-[15px] max-sm:px-3 max-sm:py-1">
           Download
         </button>
       </form>
 
-      {/* your fetched reel will be shown and download here */}
+      {/* shown and download here */}
       <div id="displayreel" className='flex flex-col justify-center text-center items-center mt-10'>
         
       </div>

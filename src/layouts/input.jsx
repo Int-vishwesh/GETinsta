@@ -22,7 +22,7 @@ const Input = () => {
 
       // Show the reel
       const displayReelDiv = document.getElementById('displayreel');
-      displayReelDiv.innerHTML = `<p> your reel is ready to download below </p> <br> <video src="${reelUrl}" controls ></video>`;
+      displayReelDiv.innerHTML = `<p> your reel is ready to download <br> below </p> <br> <video src="${reelUrl}" controls ></video>`;
     } 
     catch (error) {
       alert(error.response?.data?.error || 'An error occurred while fetching the reel. or maybe our server issue');

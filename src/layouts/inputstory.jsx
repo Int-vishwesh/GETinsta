@@ -49,7 +49,7 @@ const Input = () => {
     <div>
       <form action="" method="get" className="items-center w-100 text-center justify-center">
         <p id='headline' className="text-6xl text-[#567c8d] m-10 font-medium max-sm:text-5xl">
-          Download <span className='text-[#2f4156] font-black'>reel</span> at one click  <br /> no login, no limits </p>
+          Download <span className='text-[#2f4156] font-black'>insta-stories</span> at one click  <br /> no login, no limits </p>
         <p className='text-[17px] mb-10 text-[#2f4156] font-medium -mt-8 max-sm:text-[13px]' >Fast, Easy & Free <br /> <span>anytime ! anywhere !</span></p>
         <div className='flex flex-row justify-center'>
           <input

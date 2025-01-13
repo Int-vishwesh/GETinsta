@@ -22,10 +22,10 @@ const Footer = () => {
           <p className="m-1 text-[18px] font-medium text-white max-sm:text-[15px] max-sm:text-center ">contact us for any query ! </p>
           <form id="contact" action="">
             <input type="email" placeholder="your@email.com" 
-            className="m-1 w-96 rounded-[8px] text-[15px] px-3 py-0.5 bg-slate-300 max-sm:text-[12px] "/> 
+            className="m-1 w-96 rounded-[8px] text-[15px] px-3 py-0.5 bg-slate-300 max-sm:text-[12px] max-sm:w-72 max-sm:rounded-[5px]"/> 
             <br />
             <textarea name="" id="" placeholder="write your message" fixed 
-            className="m-1 h-24 w-96 rounded-[8px] px-3 py-0.5 text-[15px] border-2 bg-slate-300 max-sm:text-[12px] "></textarea> <br />
+            className="m-1 h-24 w-96 rounded-[8px] px-3 py-0.5 text-[15px] border-2 bg-slate-300 max-sm:text-[12px] max-sm:w-72 max-sm:rounded-[5px]"></textarea> <br />
             <button type="submit"
             className="border-2 text-[15px] rounded-[10px] ml-2 px-2.5 py-0.5 text-white max-sm:text-[13px] font-medium hover:bg-[#ccc] hover:text-black hover:border-black "> submit</button>
           </form>

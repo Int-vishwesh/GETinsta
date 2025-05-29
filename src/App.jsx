@@ -12,13 +12,15 @@ import Footer from './layouts/footer';
 const App = () => (
   <Router>
     <Navbar />
-
+    <br />
+    
     <Routes>
       <Route path="/" element={<Input />} />
       <Route path="/inputstory" element={<InputStory />} />
       <Route path="/inputpost" element={<InputPost />} />
       <Route path="/inputpfp" element={<InputPfp />} />
     </Routes>
+    <br />
     <br />
     <p className='text-center text-[#567c8d] '> also try </p>
     <nav className='flex gap-0 text-center justify-center'>

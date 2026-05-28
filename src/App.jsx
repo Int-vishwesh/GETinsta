@@ -1,12 +1,12 @@
 
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Navbar from './layouts/navbar';
+import Navbar from './components/navbar';
 import Input from './layouts/input';
 import InputStory from './layouts/inputstory';
 import InputPost from './layouts/inputpost';
 import InputPfp from './layouts/inputpfp';
-import About from './layouts/about';
-import Footer from './layouts/footer';
+import About from './components/about';
+import Footer from './components/footer';
 
 
 const App = () => (

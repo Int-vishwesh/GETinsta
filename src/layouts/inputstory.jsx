@@ -19,7 +19,7 @@ const InputStory = () => {
     setError('');
 
     try {
-      const response = await axios.post('http://127.0.0.1:5000/download-story', { username: username });
+      const response = await axios.post('https://getinsta-backend.onrender.com/download-story', { username: username });
       const stories = response.data.story_urls;
 
       if (stories && stories.length > 0) {

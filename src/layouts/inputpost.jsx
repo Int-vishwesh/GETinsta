@@ -26,7 +26,7 @@ const InputPost = () => {
     setError('');
 
     try {
-      const response = await axios.post('http://127.0.0.1:5000/download-post', { url: pasteurl });
+      const response = await axios.post('https://getinsta-backend.onrender.com/download-post', { url: pasteurl });
       const media = response.data.media;
 
       if (media && media.length > 0) {
@@ -46,7 +46,7 @@ const InputPost = () => {
       <form action="" method="get" className="items-center w-100 text-center justify-center">
         <p id='headline' className="text-6xl text-[#567c8d] m-10 font-medium max-sm:text-5xl">
           Download <span className='text-[#2f4156] font-black'>insta-posts</span> at one click  <br /> no login, no limits </p>
-    
+
         <p className='text-[17px] mb-10 text-[#2f4156] font-medium -mt-8 max-sm:text-[13px]' >Fast, Easy &amp; Free <br /> <span>anytime ! anywhere !</span></p>
         <div className='flex flex-row justify-center'>
           <input
